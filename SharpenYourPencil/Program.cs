@@ -10,6 +10,10 @@ namespace SharpenYourPencil
     {
         static void Main(string[] args)
         {
+            Elephant lucinda = new Elephant() { Name = "Lucinda", EarSize = 33 };
+            Elephant lloyd = new Elephant() { Name = "Lloyd", EarSize = 40 };
+
+
         }
     }
 }
