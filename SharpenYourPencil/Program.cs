@@ -13,7 +13,13 @@ namespace SharpenYourPencil
             Elephant lucinda = new Elephant() { Name = "Lucinda", EarSize = 33 };
             Elephant lloyd = new Elephant() { Name = "Lloyd", EarSize = 40 };
 
-
+            Console.WriteLine("Press 1 for Lloyd, 2 for Lucinda, 3 to swap");
+            while (true)
+            {
+                Console.WriteLine("Press Q to quit, any other key to continue");
+                char keyChar = Console.ReadKey(true).KeyChar;
+                if (keyChar == 'Q' || keyChar == 'q') return;
+            }
         }
     }
 }
