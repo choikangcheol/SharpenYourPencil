@@ -37,6 +37,11 @@ namespace SharpenYourPencil
                         lucinda = lloyd;
                         lloyd = temp;
                         break;
+                    case 4:
+                        lloyd = lucinda;
+                        lloyd.EarSize = 4321;
+                        lloyd.WhoAmI();
+                        break;
                     default:
                         break;
                 }
