@@ -42,6 +42,9 @@ namespace SharpenYourPencil
                         lloyd.EarSize = 4321;
                         lloyd.WhoAmI();
                         break;
+                    case 5:
+                        lucinda.SpeakTo(lloyd, "Hi, Lloyd!");
+                        break;
                     default:
                         break;
                 }
